@@ -1,0 +1,10 @@
+version: '3'
+services:
+  webapp1v1:
+    image: vinayvadloori/webapp1v1image:latest
+    ports:
+      - "90:80"
+  webapp1v2:
+    image: vinayvadloori/webapp1v2image:latest
+    ports:
+      - "91:80"
